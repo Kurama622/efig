@@ -13,7 +13,7 @@
 ```shell
 git clone https://github.com/demonlord1997/efig
 ```
-
+(If you only use it in ranger, you need not to install.)
 ## Usage
 
 ### Use In Shell
@@ -29,7 +29,7 @@ efig -i <PDF-file>
 
 ### Use In Ranger
 
-If want to use efig in ranger, you need not to clone the repository. I have prepared the class named `efig` for you:
+If you want to use efig in ranger, you need not to clone the repository. I have prepared the class named `efig` for you:
 ```python
 class efig(Command):
     """
